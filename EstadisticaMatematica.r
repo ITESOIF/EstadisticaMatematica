@@ -1,11 +1,11 @@
 
-% -- ----------------------------------------------------------------------------------------- -- #
-% -- ITESO, Universidad Jesuita de Guadalajara ----------------------------------------------- -- #
-% -- Ingeniería Financiera - Departamento de Matematicas y Fisica ---------------------------- -- #
-% -- Licencia: GNU General Public License ---------------------------------------------------- -- #
-% -- ----------------------------------------------------------------------------------------- -- #
+# -- ----------------------------------------------------------------------------------------- -- #
+# -- ITESO, Universidad Jesuita de Guadalajara ----------------------------------------------- -- #
+# -- Ingeniería Financiera - Departamento de Matematicas y Fisica ---------------------------- -- #
+# -- Licencia: GNU General Public License ---------------------------------------------------- -- #
+# -- ----------------------------------------------------------------------------------------- -- #
 
-% -- Funcion de Auto Correlacion y Auto Correlacion Parcial -------------------------------- -- #
+# -- Funcion de Auto Correlacion y Auto Correlacion Parcial ---------------------''----------- -- #
 
 AutoCorrelation <- function(x, type, LagMax)  {
   ciline <- 2/sqrt(length(x))
