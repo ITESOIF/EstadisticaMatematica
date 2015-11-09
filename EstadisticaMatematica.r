@@ -5,7 +5,7 @@
 % -- Licencia: GNU General Public License ---------------------------------------------------- -- #
 % -- ----------------------------------------------------------------------------------------- -- #
 
-% -- Funcion de Auto Correlacion y e Auto Correlacion Parcial -------------------------------- -- #
+% -- Funcion de Auto Correlacion y Auto Correlacion Parcial -------------------------------- -- #
 
 AutoCorrelation <- function(x, type, LagMax)  {
   ciline <- 2/sqrt(length(x))
